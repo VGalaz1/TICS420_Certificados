@@ -1,0 +1,113 @@
+
+.background {
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 60px; 
+}
+
+.container {
+    margin-top: 20px; 
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.form-control {
+    height: 45px;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.lang-icon {
+    border: none;
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+}
+
+.flag-icon {
+    border: none;
+}
+
+.small-badge {
+    font-size: 0.75em;  /* Adjust the font size */
+    padding: 0.25em 0.5em;  /* Adjust the padding */
+    display: flex;
+    align-items: center;
+  }
+  
+  .small-badge .icon {
+    margin-right: 0.25em;  /* Adjust the space between icon and text */
+    width: 1em;  /* Adjust the icon size */
+    height: 1em;
+  }
+  
+  .table-card {
+    background-color: #f9fafb; /* Light background color */
+    border-radius: 0.5rem; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 1rem;
+  }
+  
+  .table-header {
+    background-color: #e5e7eb; /* Light gray background for header */
+  }
+  
+  .table-header-cell {
+    padding: 0.75rem 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #4b5563; /* Dark gray text */
+  }
+  
+  .table-row:hover {
+    background-color: #f1f5f9; /* Slightly darker on hover */
+  }
+  
+  .table-cell {
+    padding: 0.75rem 1rem;
+    color: #374151; /* Dark text */
+  }
+  
+  .table-link {
+    color: #3b82f6; /* Blue text for links */
+    text-decoration: underline;
+  }
+  
+  .table-link:hover {
+    color: #1d4ed8; /* Darker blue on hover */
+  }
+  

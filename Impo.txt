@@ -1,0 +1,8 @@
+npm install mysql2 bcryptjs jsonwebtoken
+
+
+TICS420-pedro
+
+db-tics420
+admin
+TICSS420-todos

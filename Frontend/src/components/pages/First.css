@@ -1,0 +1,13 @@
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    height: 100vh; /* O ajusta la altura según tus necesidades */
+}
+
+.item {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
